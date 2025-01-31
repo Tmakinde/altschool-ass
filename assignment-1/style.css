@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #202020;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  font-size: 1.6rem;
+}
+
+.container {
+  position: absolute;
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8rem;
+}
+
+.container-heading {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #ff0095;
+  border-radius: 8px;
+  margin-top: -25px;
+}
+
+.container-para {
+  margin-top: 20px;
+}
